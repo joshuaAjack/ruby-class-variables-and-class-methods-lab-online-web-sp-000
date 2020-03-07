@@ -5,7 +5,13 @@ class Song
 @@genre = []
 @@artist = []
 
-def instance
+def initialize(song_name,artist,genre)
+  @@song_name = song_name 
+  @@artist = artist 
+  @@genre = genre
+  @@artist << artist
+  @@genre << genre
+end 
 
 def self.count 
   @@count += 1 
