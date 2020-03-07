@@ -3,7 +3,7 @@ class Song
 
 @@count = 0 
 
-def count 
+def self.class_method  
   @@count += 1 
 end 
 
