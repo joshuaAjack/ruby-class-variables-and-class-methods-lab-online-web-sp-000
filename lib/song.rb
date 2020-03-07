@@ -1,6 +1,11 @@
 class Song 
   attr_accessor :name, :artist, :genre 
 
-def slef.
+@@count = 0 
+
+def count 
+  @@count += 1 
+end 
+
 
 end 
