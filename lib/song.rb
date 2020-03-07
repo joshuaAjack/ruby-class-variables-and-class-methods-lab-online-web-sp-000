@@ -3,7 +3,9 @@ class Song
 
 @@count = 0 
 @@genre = []
-@@artist_count
+@@artist = []
+
+def instance
 
 def self.count 
   @@count += 1 
